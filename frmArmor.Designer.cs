@@ -53,6 +53,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Mochila",
@@ -114,7 +115,7 @@
             -2147483648});
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(42, 20);
-            this.numericUpDown2.TabIndex = 2;
+            this.numericUpDown2.TabIndex = 3;
             // 
             // label4
             // 
@@ -140,14 +141,14 @@
             -2147483648});
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(42, 20);
-            this.numericUpDown3.TabIndex = 2;
+            this.numericUpDown3.TabIndex = 4;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(15, 113);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 42);
-            this.button1.TabIndex = 3;
+            this.button1.TabIndex = 5;
             this.button1.Text = "Finish";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);

@@ -61,6 +61,11 @@
             0,
             0});
             this.fomeUpDown.Location = new System.Drawing.Point(69, 12);
+            this.fomeUpDown.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.fomeUpDown.Name = "fomeUpDown";
             this.fomeUpDown.Size = new System.Drawing.Size(39, 20);
             this.fomeUpDown.TabIndex = 1;
@@ -82,9 +87,14 @@
             0,
             0});
             this.sedeUpDown.Location = new System.Drawing.Point(69, 38);
+            this.sedeUpDown.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.sedeUpDown.Name = "sedeUpDown";
             this.sedeUpDown.Size = new System.Drawing.Size(39, 20);
-            this.sedeUpDown.TabIndex = 1;
+            this.sedeUpDown.TabIndex = 2;
             // 
             // label3
             // 
@@ -103,9 +113,14 @@
             0,
             0});
             this.cansacoUpDown.Location = new System.Drawing.Point(69, 64);
+            this.cansacoUpDown.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.cansacoUpDown.Name = "cansacoUpDown";
             this.cansacoUpDown.Size = new System.Drawing.Size(39, 20);
-            this.cansacoUpDown.TabIndex = 1;
+            this.cansacoUpDown.TabIndex = 3;
             // 
             // label4
             // 
@@ -124,16 +139,21 @@
             0,
             0});
             this.saudeUpDown.Location = new System.Drawing.Point(69, 90);
+            this.saudeUpDown.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.saudeUpDown.Name = "saudeUpDown";
             this.saudeUpDown.Size = new System.Drawing.Size(39, 20);
-            this.saudeUpDown.TabIndex = 1;
+            this.saudeUpDown.TabIndex = 4;
             // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(16, 169);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(92, 57);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 6;
             this.button1.Text = "Finalizar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
@@ -144,7 +164,7 @@
             this.cannedCheck.Location = new System.Drawing.Point(16, 134);
             this.cannedCheck.Name = "cannedCheck";
             this.cannedCheck.Size = new System.Drawing.Size(63, 17);
-            this.cannedCheck.TabIndex = 3;
+            this.cannedCheck.TabIndex = 5;
             this.cannedCheck.Text = "Canned";
             this.cannedCheck.UseVisualStyleBackColor = true;
             // 
