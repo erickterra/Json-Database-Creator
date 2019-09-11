@@ -28,8 +28,12 @@ namespace Json_Database_Creator
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            Form2 edit = new Form2();
-            edit.ShowDialog();
+            if (System.IO.File.Exists(Globals.directory + Globals.fileName))
+            {
+                Form2 edit = new Form2();
+                edit.ShowDialog();
+            }
+            else {MessageBox.Show("Não existe nenhum registro no arquivo Json");}
         }
     }
 }

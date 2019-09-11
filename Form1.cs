@@ -59,7 +59,7 @@ namespace Json_Database_Creator
                 switch(type)
                 {
                     case "Consumable":
-                        Consumables cons = new Consumables(id, jsonDictionary);
+                        Consumables cons = new Consumables(id, jsonDictionary, false);
                         ClearFields();
                         cons.ShowDialog();
                         break;

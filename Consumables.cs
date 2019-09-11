@@ -16,19 +16,42 @@ namespace Json_Database_Creator
         private JsonDictionary jsonDictionary;
         private JsonHandler jsonHandler = new JsonHandler();
         private int idItem;
+        bool editing;
 
-        public Consumables(int id, JsonDictionary dictionary)
+        public Consumables(int id, JsonDictionary dictionary, bool editing)
         {
             this.idItem = id;
             this.jsonDictionary = dictionary;
+            this.editing = editing;
             InitializeComponent();
+
+            if(editing)
+            {
+                fomeUpDown.Value = jsonDictionary.consumables[idItem].fome;
+                sedeUpDown.Value = jsonDictionary.consumables[idItem].sede;
+                cansacoUpDown.Value = jsonDictionary.consumables[idItem].cansaco;
+                saudeUpDown.Value = jsonDictionary.consumables[idItem].saude;
+                cannedCheck.Checked = jsonDictionary.consumables[idItem].canned;
+            }
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            jsonDictionary.consumables.Add(new Consumable(idItem, int.Parse(fomeUpDown.Value.ToString()), int.Parse(sedeUpDown.Value.ToString()), int.Parse(cansacoUpDown.Value.ToString()), int.Parse(saudeUpDown.Value.ToString()), cannedCheck.Checked));
+            if (!editing)
+            {
+                jsonDictionary.consumables.Add(new Consumable(idItem, int.Parse(fomeUpDown.Value.ToString()), int.Parse(sedeUpDown.Value.ToString()), int.Parse(cansacoUpDown.Value.ToString()), int.Parse(saudeUpDown.Value.ToString()), cannedCheck.Checked));
+            }
+            else
+            {
+                jsonDictionary.consumables[idItem].fome = (int)fomeUpDown.Value;
+                jsonDictionary.consumables[idItem].sede = (int)sedeUpDown.Value;
+                jsonDictionary.consumables[idItem].cansaco = (int)cansacoUpDown.Value;
+                jsonDictionary.consumables[idItem].saude = (int)saudeUpDown.Value;
+                jsonDictionary.consumables[idItem].canned = cannedCheck.Checked;
+            }
             jsonHandler.GravarJson(jsonDictionary);
             this.Close();
+
         }
 
         private void Consumables_Load(object sender, EventArgs e)

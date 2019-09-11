@@ -19,6 +19,7 @@ namespace Json_Database_Creator
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            
             jsonDictionary = jsonHandler.ReadJson();
 
             for (int i = 0; i < jsonDictionary.database.Count; i++)
@@ -42,15 +43,7 @@ namespace Json_Database_Creator
 
         private void Submit_Click(object sender, EventArgs e)
         {
-            int id;
-            if (jsonDictionary.database == null)
-            {
-                id = 0;
-            }
-            else
-            {
-                id = jsonDictionary.database.Count;
-            }
+            int id = int.Parse(comboBox1.Text);
 
             if (
             nameText.Text == "" ||
@@ -64,14 +57,17 @@ namespace Json_Database_Creator
             }
             else
             {
-                jsonDictionary.database.Add(new Item(nameText.Text, id, descricaoTextBox.Text, typeComboBox.Text, itemStackBox.Checked, int.Parse(stackNumericUpDown.Value.ToString()), raridadeComboBox.Text));
-
+                jsonDictionary.database[id].itemName = nameText.Text;
+                jsonDictionary.database[id].itemDesc = descricaoTextBox.Text;
+                jsonDictionary.database[id].itemStack = itemStackBox.Checked;
+                jsonDictionary.database[id].itemMaxStack = (int)stackNumericUpDown.Value;
+                jsonDictionary.database[id].itemRarity = raridadeComboBox.Text;
                 string type = typeComboBox.Text;
-
+                //bool edit = false;
                 switch (type)
                 {
                     case "Consumable":
-                        Consumables cons = new Consumables(id, jsonDictionary);
+                        Consumables cons = new Consumables(id, jsonDictionary, true);
                         ClearFields();
                         cons.ShowDialog();
                         break;
@@ -96,6 +92,7 @@ namespace Json_Database_Creator
         }
         private void ClearFields()
         {
+            comboBox1.Text = "";
             nameText.Text = "";
             descricaoTextBox.Text = "";
             typeComboBox.SelectedIndex = -1;
@@ -103,6 +100,25 @@ namespace Json_Database_Creator
             stackNumericUpDown.Value = 1;
             stackNumericUpDown.Enabled = false;
             raridadeComboBox.SelectedIndex = -1;
+        }
+
+        private void ItemStackBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (itemStackBox.Checked)
+            {
+
+                stackNumericUpDown.Enabled = true;
+            }
+            else
+            {
+                stackNumericUpDown.Value = 1;
+                stackNumericUpDown.Enabled = false;
+            }
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            ClearFields();
         }
     }
 }

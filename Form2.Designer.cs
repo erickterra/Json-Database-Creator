@@ -54,6 +54,7 @@
             this.button1.TabIndex = 20;
             this.button1.Text = "Limpar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Submit
             // 
@@ -87,6 +88,7 @@
             this.itemStackBox.TabIndex = 16;
             this.itemStackBox.Text = "Is Stackable";
             this.itemStackBox.UseVisualStyleBackColor = true;
+            this.itemStackBox.CheckedChanged += new System.EventHandler(this.ItemStackBox_CheckedChanged);
             // 
             // raridadeComboBox
             // 

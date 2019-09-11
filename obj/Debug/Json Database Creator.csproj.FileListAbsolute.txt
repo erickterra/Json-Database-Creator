@@ -38,3 +38,19 @@ C:\Users\Erick\Documents\GitHub\Json-Database-Creator\obj\Debug\Json Database Cr
 C:\Users\Erick\Documents\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.csproj.CopyComplete
 C:\Users\Erick\Documents\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.exe
 C:\Users\Erick\Documents\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.pdb
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.csprojAssemblyReference.cache
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json_Database_Creator.Consumables.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json_Database_Creator.JSonManager.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json_Database_Creator.Form2.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json_Database_Creator.FrmWeapon.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json_Database_Creator.frmArmor.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json_Database_Creator.Menu.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json_Database_Creator.Properties.Resources.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.csproj.GenerateResource.cache
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.csproj.CoreCompileInputs.cache
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.exe
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.pdb
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Debug\Json Database Creator.exe.config
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Debug\Json Database Creator.exe
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Debug\Json Database Creator.pdb
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.csproj.CopyComplete
