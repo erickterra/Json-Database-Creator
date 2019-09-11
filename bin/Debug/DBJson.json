@@ -1,0 +1,310 @@
+{
+  "database": [
+    {
+      "itemName": "Sopa de Tomate",
+      "itemID": 0,
+      "itemDesc": "Uma sopa de tomates cozidos",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Lendario"
+    },
+    {
+      "itemName": "Garrafa de Água",
+      "itemID": 1,
+      "itemDesc": "Uma garrafa de água limpa",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Lendario"
+    },
+    {
+      "itemName": "Café",
+      "itemID": 2,
+      "itemDesc": "Uma deliciosa bebida quente que vai te ajudar a acordar",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Indropavel"
+    },
+    {
+      "itemName": "Lata Vazia",
+      "itemID": 3,
+      "itemDesc": "Uma latinha que costumava ter alguma coisa",
+      "itemType": "Junk",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Comum"
+    },
+    {
+      "itemName": "Comida de Cachorro",
+      "itemID": 4,
+      "itemDesc": "Se não tiver mais nada, isso vai te salvar de morrer de fome",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Raro"
+    },
+    {
+      "itemName": "Pó de Café",
+      "itemID": 5,
+      "itemDesc": "Café Pelé é o melhor",
+      "itemType": "Ingredient",
+      "itemStack": true,
+      "itemMaxStack": 5,
+      "itemRarity": "Incomum"
+    },
+    {
+      "itemName": "Garrafa de Água Suja",
+      "itemID": 6,
+      "itemDesc": "Uma garrafa com um pouco de água imprópria para consumo",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Incomum"
+    },
+    {
+      "itemName": "Peças de Metal",
+      "itemID": 7,
+      "itemDesc": "Porcas, parafusos, molas. Podem ser usadas para fazer coisas simples",
+      "itemType": "Junk",
+      "itemStack": true,
+      "itemMaxStack": 10,
+      "itemRarity": "Comum"
+    },
+    {
+      "itemName": "Carne Crua",
+      "itemID": 8,
+      "itemDesc": "Um pedaço de carne. Pode comer cru se estiver desesperado, mas talvez seja melhor cozinhar antes",
+      "itemType": "Consumable",
+      "itemStack": true,
+      "itemMaxStack": 2,
+      "itemRarity": "Lendario"
+    },
+    {
+      "itemName": "Carne Cozida",
+      "itemID": 9,
+      "itemDesc": "Uma refeição decente",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Indropavel"
+    },
+    {
+      "itemName": "Ave Crua",
+      "itemID": 10,
+      "itemDesc": "Um pouco de carne de ave (não queira saber qual). Pode ser comida crua... Mas é melhor não...",
+      "itemType": "Consumable",
+      "itemStack": true,
+      "itemMaxStack": 2,
+      "itemRarity": "Lendario"
+    },
+    {
+      "itemName": "Ave Cozida",
+      "itemID": 11,
+      "itemDesc": "Franguinho!!",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Indropavel"
+    },
+    {
+      "itemName": "Comida Estragada",
+      "itemID": 12,
+      "itemDesc": "Algo que estragou",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Comum"
+    },
+    {
+      "itemName": "Pano",
+      "itemID": 13,
+      "itemDesc": "Um pedaço de pano rasgado",
+      "itemType": "Junk",
+      "itemStack": true,
+      "itemMaxStack": 4,
+      "itemRarity": "Comum"
+    },
+    {
+      "itemName": "Atadura",
+      "itemID": 14,
+      "itemDesc": "Uma atadura simples",
+      "itemType": "Consumable",
+      "itemStack": true,
+      "itemMaxStack": 2,
+      "itemRarity": "Indropavel"
+    },
+    {
+      "itemName": "Madeira",
+      "itemID": 15,
+      "itemDesc": "Uma tábua, pode ser usada para criar coisas",
+      "itemType": "Junk",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Comum"
+    },
+    {
+      "itemName": "Lenha",
+      "itemID": 16,
+      "itemDesc": "Madeira que pode ser queimada",
+      "itemType": "Junk",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Incomum"
+    },
+    {
+      "itemName": "Miojo",
+      "itemID": 17,
+      "itemDesc": "Macarrão instantaneo.",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Raro"
+    },
+    {
+      "itemName": "Miojo Pronto",
+      "itemID": 18,
+      "itemDesc": "Macarrão instantaneo com água",
+      "itemType": "Consumable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Indropavel"
+    },
+    {
+      "itemName": "Fogueira",
+      "itemID": 19,
+      "itemDesc": "Você pode usar para cozinhar",
+      "itemType": "Placeable",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Indropavel"
+    },
+    {
+      "itemName": "Fosforo",
+      "itemID": 20,
+      "itemDesc": "Uma caixinha de palitos de fosforo. Muito útil",
+      "itemType": "Ingredient",
+      "itemStack": true,
+      "itemMaxStack": 10,
+      "itemRarity": "Incomum"
+    },
+    {
+      "itemName": "Alcool",
+      "itemID": 21,
+      "itemDesc": "Uma garrafa com um liquido inflamável",
+      "itemType": "Ingredient",
+      "itemStack": false,
+      "itemMaxStack": 1,
+      "itemRarity": "Incomum"
+    }
+  ],
+  "consumables": [
+    {
+      "idItem": 0,
+      "fome": 30,
+      "sede": 10,
+      "cansaco": 0,
+      "saude": 0,
+      "canned": true
+    },
+    {
+      "idItem": 1,
+      "fome": 0,
+      "sede": 50,
+      "cansaco": 0,
+      "saude": 0,
+      "canned": false
+    },
+    {
+      "idItem": 2,
+      "fome": 0,
+      "sede": 20,
+      "cansaco": 20,
+      "saude": 0,
+      "canned": true
+    },
+    {
+      "idItem": 4,
+      "fome": 20,
+      "sede": -10,
+      "cansaco": 0,
+      "saude": 0,
+      "canned": true
+    },
+    {
+      "idItem": 6,
+      "fome": 0,
+      "sede": 30,
+      "cansaco": -10,
+      "saude": -10,
+      "canned": false
+    },
+    {
+      "idItem": 8,
+      "fome": 25,
+      "sede": -10,
+      "cansaco": -5,
+      "saude": -20,
+      "canned": false
+    },
+    {
+      "idItem": 9,
+      "fome": 50,
+      "sede": -10,
+      "cansaco": 0,
+      "saude": 10,
+      "canned": false
+    },
+    {
+      "idItem": 10,
+      "fome": 20,
+      "sede": -10,
+      "cansaco": -10,
+      "saude": -10,
+      "canned": false
+    },
+    {
+      "idItem": 11,
+      "fome": 40,
+      "sede": -5,
+      "cansaco": 0,
+      "saude": 10,
+      "canned": false
+    },
+    {
+      "idItem": 12,
+      "fome": 10,
+      "sede": -10,
+      "cansaco": 0,
+      "saude": -10,
+      "canned": false
+    },
+    {
+      "idItem": 14,
+      "fome": 0,
+      "sede": 0,
+      "cansaco": 0,
+      "saude": 20,
+      "canned": false
+    },
+    {
+      "idItem": 17,
+      "fome": 10,
+      "sede": 0,
+      "cansaco": 0,
+      "saude": 0,
+      "canned": false
+    },
+    {
+      "idItem": 18,
+      "fome": 30,
+      "sede": 10,
+      "cansaco": 0,
+      "saude": 0,
+      "canned": false
+    }
+  ],
+  "weapons": [],
+  "armors": []
+}
