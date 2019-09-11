@@ -16,7 +16,7 @@ namespace Json_Database_Creator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JSonManager());
+            Application.Run(new Menu());
         }
     }
 }
