@@ -25,8 +25,16 @@ namespace Json_Database_Creator
             this.editing = editing;
             InitializeComponent();
 
-            if(editing)
+            if (editing)
             {
+                for (int i = 0; i < jsonDictionary.consumables.Count; i++)
+                {
+                    if (jsonDictionary.consumables[i].idItem == id)
+                    {
+                        this.idItem = i;
+                        break;
+                    }
+                }
                 fomeUpDown.Value = jsonDictionary.consumables[idItem].fome;
                 sedeUpDown.Value = jsonDictionary.consumables[idItem].sede;
                 cansacoUpDown.Value = jsonDictionary.consumables[idItem].cansaco;

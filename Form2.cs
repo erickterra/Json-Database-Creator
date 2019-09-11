@@ -73,12 +73,12 @@ namespace Json_Database_Creator
                         break;
 
                     case "Armor":
-                        frmArmor arm = new frmArmor(id, jsonDictionary);
+                        frmArmor arm = new frmArmor(id, jsonDictionary, true);
                         ClearFields();
                         arm.ShowDialog();
                         break;
                     case "Weapon":
-                        FrmWeapon weap = new FrmWeapon(id, jsonDictionary);
+                        FrmWeapon weap = new FrmWeapon(id, jsonDictionary, true);
                         ClearFields();
                         weap.ShowDialog();
                         break;

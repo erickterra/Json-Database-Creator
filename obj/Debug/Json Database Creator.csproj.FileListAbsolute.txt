@@ -54,3 +54,5 @@ C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Debug\Json D
 C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Debug\Json Database Creator.exe
 C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Debug\Json Database Creator.pdb
 C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Debug\Json Database Creator.csproj.CopyComplete
+C:\Users\Erick\Documents\GitHub\Json-Database-Creator\obj\Debug\Json_Database_Creator.Form2.resources
+C:\Users\Erick\Documents\GitHub\Json-Database-Creator\obj\Debug\Json_Database_Creator.Menu.resources
