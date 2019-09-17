@@ -98,7 +98,8 @@
             "Comum",
             "Incomum",
             "Raro",
-            "Lendario",
+            "Muito Raro",
+            "Lendário",
             "Indropavel"});
             this.raridadeComboBox.Location = new System.Drawing.Point(68, 209);
             this.raridadeComboBox.Name = "raridadeComboBox";

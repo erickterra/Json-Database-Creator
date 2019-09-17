@@ -38,9 +38,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.stackNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
-            this.raridadeComboBox = new System.Windows.Forms.ComboBox();
             this.Submit = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.raridadeComboBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.stackNumericUpDown)).BeginInit();
             this.SuspendLayout();
             // 
@@ -146,21 +146,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Raridade";
             // 
-            // raridadeComboBox
-            // 
-            this.raridadeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.raridadeComboBox.FormattingEnabled = true;
-            this.raridadeComboBox.Items.AddRange(new object[] {
-            "Comum",
-            "Incomum",
-            "Raro",
-            "Lendario",
-            "Indropavel"});
-            this.raridadeComboBox.Location = new System.Drawing.Point(68, 180);
-            this.raridadeComboBox.Name = "raridadeComboBox";
-            this.raridadeComboBox.Size = new System.Drawing.Size(86, 21);
-            this.raridadeComboBox.TabIndex = 5;
-            // 
             // Submit
             // 
             this.Submit.Location = new System.Drawing.Point(148, 230);
@@ -181,16 +166,32 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
+            // raridadeComboBox
+            // 
+            this.raridadeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.raridadeComboBox.FormattingEnabled = true;
+            this.raridadeComboBox.Items.AddRange(new object[] {
+            "Comum",
+            "Incomum",
+            "Raro",
+            "Muito Raro",
+            "Lendário",
+            "Indropavel"});
+            this.raridadeComboBox.Location = new System.Drawing.Point(68, 180);
+            this.raridadeComboBox.Name = "raridadeComboBox";
+            this.raridadeComboBox.Size = new System.Drawing.Size(86, 21);
+            this.raridadeComboBox.TabIndex = 19;
+            // 
             // JSonManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(235, 290);
+            this.Controls.Add(this.raridadeComboBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Submit);
             this.Controls.Add(this.stackNumericUpDown);
             this.Controls.Add(this.itemStackBox);
-            this.Controls.Add(this.raridadeComboBox);
             this.Controls.Add(this.typeComboBox);
             this.Controls.Add(this.descricaoTextBox);
             this.Controls.Add(this.label2);
@@ -222,9 +223,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.NumericUpDown stackNumericUpDown;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox raridadeComboBox;
         private System.Windows.Forms.Button Submit;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox raridadeComboBox;
     }
 }
 
