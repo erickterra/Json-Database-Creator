@@ -54,7 +54,8 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Ranged",
-            "Melee"});
+            "Melee",
+            "Throwable"});
             this.comboBox1.Location = new System.Drawing.Point(94, 10);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(71, 21);
