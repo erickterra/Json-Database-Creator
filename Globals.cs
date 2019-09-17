@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
     public class Globals
     {
-        public static string directory = @"C:\\temp\\";
+        public static string directory = @"C:\\";
         public static string fileName = "DBJson.json";
     
     }
