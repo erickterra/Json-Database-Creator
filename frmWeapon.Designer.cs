@@ -35,6 +35,8 @@
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -115,7 +117,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(16, 90);
+            this.button1.Location = new System.Drawing.Point(16, 141);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 52);
             this.button1.TabIndex = 4;
@@ -123,16 +125,39 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click_1);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 94);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(29, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Hold";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "1 Handed",
+            "2 Handed"});
+            this.comboBox2.Location = new System.Drawing.Point(93, 91);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(71, 21);
+            this.comboBox2.TabIndex = 1;
+            // 
             // FrmWeapon
             // 
-            this.ClientSize = new System.Drawing.Size(177, 150);
+            this.ClientSize = new System.Drawing.Size(177, 205);
             this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Name = "FrmWeapon";
             this.Text = "Weapon";
@@ -154,5 +179,7 @@
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }

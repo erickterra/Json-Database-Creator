@@ -8,12 +8,15 @@ public class Weapons
     public string weaponType;
     public int attack;
     public int range;
+    public string hold;
 
-    public Weapons(int idItem, string weaponType, int attack, int range)
+    public Weapons(int idItem, string weaponType, int attack, int range, string hold)
     {
         this.idItem = idItem;
         this.weaponType = weaponType;
         this.attack = attack;
         this.range = range;
+        this.hold = hold;
+
     }
 }

@@ -61,13 +61,14 @@ namespace Json_Database_Creator
             {
                 if (!editing)
                 {
-                    jd.weapons.Add(new Weapons(idItem, comboBox1.Text, (int)numericUpDown1.Value, (int)numericUpDown2.Value));
+                    jd.weapons.Add(new Weapons(idItem, comboBox1.Text, (int)numericUpDown1.Value, (int)numericUpDown2.Value, comboBox2.Text));
                 }
                 else
                 {
                     jd.weapons[idItem].weaponType = comboBox1.Text;
                     jd.weapons[idItem].attack = (int)numericUpDown1.Value;
                     jd.weapons[idItem].range = (int)numericUpDown2.Value;
+                    jd.weapons[idItem].hold = comboBox1.Text;
                 }
                 
                 jsonHandler.GravarJson(jd);

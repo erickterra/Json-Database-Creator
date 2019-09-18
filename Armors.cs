@@ -9,6 +9,7 @@ public class Armor
     public int defense;
     public int speed;
     public int slots;
+   
 
     public Armor(int idItem, string armorType, int defense, int speed, int slots)
     {
