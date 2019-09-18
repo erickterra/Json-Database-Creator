@@ -1,0 +1,7 @@
+
+*.pdb
+*.cache
+.vs/Json Database Creator/v16/Server/sqlite3/storage.ide-wal
+.vs/Json Database Creator/v16/Server/sqlite3/storage.ide-shm
+.vs/Json Database Creator/v16/Server/sqlite3/storage.ide
+.vs/Json Database Creator/v16/.suo
