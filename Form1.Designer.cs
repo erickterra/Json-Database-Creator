@@ -89,7 +89,8 @@
             "Junk",
             "Ingredient",
             "Placeable",
-            "None"});
+            "None",
+            "Ammo"});
             this.typeComboBox.Location = new System.Drawing.Point(54, 102);
             this.typeComboBox.Name = "typeComboBox";
             this.typeComboBox.Size = new System.Drawing.Size(100, 21);
