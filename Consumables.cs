@@ -57,6 +57,7 @@ namespace Json_Database_Creator
                 jsonDictionary.consumables[idItem].saude = (int)saudeUpDown.Value;
                 jsonDictionary.consumables[idItem].canned = cannedCheck.Checked;
             }
+
             jsonHandler.GravarJson(jsonDictionary);
             this.Close();
 

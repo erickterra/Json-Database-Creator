@@ -1,0 +1,16 @@
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Release\Json Database Creator.exe.config
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Release\Json Database Creator.exe
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Release\Json Database Creator.pdb
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\bin\Release\Newtonsoft.Json.dll
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json_Database_Creator.Consumables.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json_Database_Creator.JSonManager.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json_Database_Creator.Form2.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json_Database_Creator.FrmWeapon.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json_Database_Creator.frmArmor.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json_Database_Creator.Menu.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json_Database_Creator.Properties.Resources.resources
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json Database Creator.csproj.GenerateResource.cache
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json Database Creator.csproj.CoreCompileInputs.cache
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json Database Creator.csproj.CopyComplete
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json Database Creator.exe
+C:\Users\erick\OneDrive\Documentos\GitHub\Json-Database-Creator\obj\Release\Json Database Creator.pdb

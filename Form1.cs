@@ -14,7 +14,7 @@ namespace Json_Database_Creator
 {
     public partial class JSonManager : Form
     {
-        private string folderPath = Globals.directory;
+        private string folderPath = Globals.filePath;
         private string fileName = Globals.fileName;
         public string fileType;
         public FileInfo jsonFile;
@@ -75,7 +75,10 @@ namespace Json_Database_Creator
                         weap.ShowDialog();
                         break;
 
-
+                    default:
+                        jsonHandler.GravarJson(jsonDictionary);
+                        break;
+                        
                 }
                     
                 
